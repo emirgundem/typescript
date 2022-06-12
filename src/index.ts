@@ -16,3 +16,16 @@ let arr: any[] = [1,true,'hello']
 
 
 
+//Tuple
+
+let person: [number,string,boolean] = [1,'emir',true]
+
+//Tuple Array
+
+let employee: [number,string][]
+
+employee = [
+    [1,'ABC'],
+    [2, 'BCA'],
+    [3, 'CEF']
+]
