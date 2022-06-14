@@ -39,4 +39,3 @@ const user = {
     id: 1,
     name: 'john'
 };
-console.log(user.name);

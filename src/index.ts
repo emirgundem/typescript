@@ -65,8 +65,6 @@ const user: User = {
     name:'john'
 }
 
-console.log(user.name)
-
 
 
 
