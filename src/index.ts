@@ -29,3 +29,38 @@ employee = [
     [2, 'BCA'],
     [3, 'CEF']
 ]
+
+
+//Union
+let pid: number | string
+pid = 2
+pid = "2"
+
+
+
+//Enum
+enum Direction1 {
+    Up,
+    Down,
+    Left,
+    Right
+}
+
+enum Direction2 {
+    Up = 'Up',
+    Down = 'Down',
+    Left = 'Left',
+    Right = 'Right'
+}
+
+
+
+
+
+
+
+
+
+
+
+
