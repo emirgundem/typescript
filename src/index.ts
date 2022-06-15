@@ -66,6 +66,25 @@ const user: User = {
 }
 
 
+//Type assertion
+let cid: any = 1
+let customerId = cid as number
+
+
+
+//Functions
+function addNum(x:number,y:number): number{
+    return x+y
+}
+
+function log(message: string | number | boolean): void{
+     console.log(message)
+}
+
+
+
+
+
 
 
 
