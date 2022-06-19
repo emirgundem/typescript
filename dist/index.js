@@ -55,3 +55,15 @@ const user1 = {
 };
 const add = (x, y) => x + y;
 const sub = (x, y) => x - y;
+//Classes
+class Person {
+    constructor(id, name, age, role) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.role = role;
+    }
+}
+const emir = new Person(1, 'emir', 25, true);
+const ali = new Person(2, 'ali', 20, false);
+console.log(emir, ali);

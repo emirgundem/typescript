@@ -1,4 +1,5 @@
 
+
 //Basic Types
 let id: number = 5
 
@@ -104,9 +105,26 @@ const sub: MathFunc = (x:number,y:number): number => x-y
 
 
 
+//Classes
 
+class Person {
+    id: number
+    name: string
+    age: number
+    role: boolean
 
+    constructor(id:number,name:string,age:number,role:boolean){
+         this.id = id
+         this.name = name
+         this.age = age
+         this.role = role
+    }
+}
 
+const emir = new Person(1,'emir',25,true)
+const ali = new Person(2,'ali',20,false)
+
+console.log(emir,ali)
 
 
 
